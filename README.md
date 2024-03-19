@@ -1,3 +1,10 @@
+# Forked from <https://github.com/YihanWang617/LLM-Jailbreaking-Defense-Backtranslation>
+
+See Results [HERE](Results)
+
+---
+---
+
 Defending LLMs against Jailbreaking Attacks via Backtranslation
 ==============
 
