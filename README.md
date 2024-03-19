@@ -3,7 +3,6 @@
 See Results [HERE](Results)
 
 ---
----
 
 Defending LLMs against Jailbreaking Attacks via Backtranslation
 ==============
