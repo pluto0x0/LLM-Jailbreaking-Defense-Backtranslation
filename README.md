@@ -1,6 +1,6 @@
 # Forked from <https://github.com/YihanWang617/LLM-Jailbreaking-Defense-Backtranslation>
 
-See Results [HERE](Results)
+See Results [HERE](./Results/)
 
 ---
 
