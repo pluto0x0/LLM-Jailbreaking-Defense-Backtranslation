@@ -44,7 +44,8 @@ def main(_):
         "MPA": attack_lib.MultiPromptAttack,
     }
 
-    timestamp = time.strftime("%Y%m%d-%H:%M:%S")
+    # timestamp = time.strftime("%Y%m%d-%H:%M:%S")
+    timestamp = time.strftime("%Y%m%d-%H_%M_%S") # modified
     if not os.path.exists(os.path.dirname(params.result_prefix)):
         os.makedirs(os.path.dirname(params.result_prefix))
     if params.transfer:

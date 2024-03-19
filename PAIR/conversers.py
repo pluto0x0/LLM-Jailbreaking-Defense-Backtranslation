@@ -4,7 +4,8 @@ from .config import ATTACK_TEMP, ATTACK_TOP_P
 from tqdm import tqdm
 import sys
 sys.path.append("..")
-from jailbreakingDefense.utils import load_target_model
+# from jailbreakingDefense.utils import load_target_model
+from .utils import load_target_model # modified
 from .models import load_indiv_model
 
 

@@ -117,7 +117,8 @@ def main(args):
         args.target_str = target
         args.index = item['id']
         args.category = item['category']
-        judgeLM = load_judge(args)
+        # judgeLM = load_judge(args)
+        judgeLM = load_judge(args, goal) # modified
         system_prompt = get_attacker_system_prompt(
             goal,
             target
@@ -245,7 +246,8 @@ if __name__ == '__main__':
     )
     ##################################################
 
-    parser.add_argument('--save_output_path', type=float)
+    # parser.add_argument('--save_output_path', type=float)
+    parser.add_argument('--save_output_path', type=str) # modiefied
     parser.add_argument('--max_memory', type=int, default=None)
     parser.add_argument('--paraphrase_model', type=str, default='gpt-3.5-turbo')
     parser.add_argument('--self_check_threshod', type=int, default=5)
